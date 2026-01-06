@@ -8,10 +8,19 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+/* common class */
+.conteiner{
+    /*width: 71%; */
+    max-width: 1440px; 
+    /* margin: 0px auto; */
+    border: 1px solid black;
+    margin-bottom: 130px;
+}
 
 .logo{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700px;
+    
 
 }
 .color-orange{
@@ -54,3 +63,113 @@ nav .menu a{
     
 
 }
+.conteiner{
+    margin-right: 0px;
+    margin-left: auto;
+}
+#hero{
+    display: flex;
+    margin-top: 49px;
+}
+.hero-content{
+    align-items: center;
+    /* justify-items: center; */
+}
+.hero-content *{
+    margin-bottom: 20px;
+}
+.hero-content h2{
+    font-size: 45;
+    font-weight: 400;
+    color: #474747;
+}
+.hero-content p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+.hero-img{
+    /* background-image: url(); */
+}
+#hero-img img{
+    width: 574px;
+    height: 676px;
+}
+
+
+
+/* about section */
+.about{
+   width: 75%; 
+    max-width: 1440px; 
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    margin-bottom: 130px;
+    background-color: #FFF8F3;
+}
+#about-me{
+    padding: 131px 156px;
+    /* justify-content: center; */
+    text-align: center;
+}
+.about-content h2{
+    font-size: 35px;
+    color: #181818;
+    padding-bottom: 30px;
+
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-bottom: 30px;
+
+}
+#info{
+    display: flex;
+    gap: 30px;
+    justify-content:space-around;
+}
+
+
+/* slill section  */
+#skill-section{
+    width: 75%; 
+    max-width: 1440px; 
+    margin: 0px auto;
+    margin-bottom: 130px;
+}
+.skill .heading{
+    text-align: center;
+}
+.skill .heading h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.skill .heading p{
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 40px;
+}
+#skill-box{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.box{
+    padding: 25px;
+    box-shadow: 0 6px 50px 0px #0000005c;
+    border-radius: 6px;
+}
+.box h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.box p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* resume section  */
