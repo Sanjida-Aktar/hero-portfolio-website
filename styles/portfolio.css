@@ -133,13 +133,13 @@ nav .menu a{
 
 
 /* slill section  */
-#skill-section{
+#skill-section, .resume-section{
     width: 75%; 
     max-width: 1440px; 
     margin: 0px auto;
     margin-bottom: 130px;
 }
-.skill .heading{
+.skill{
     text-align: center;
 }
 .skill .heading h2{
@@ -173,3 +173,48 @@ nav .menu a{
 }
 
 /* resume section  */
+#heading{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.content h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: #474747;
+}
+.content h4{
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #474747;
+}
+.content h5{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.content p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-bottom: 60px;
+}
+
+/* contract section  */
+#Contract-conteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+    padding: 80px 173px;
+}
+#contact h2, #massege h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+#contact p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
